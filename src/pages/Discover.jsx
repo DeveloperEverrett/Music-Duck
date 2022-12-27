@@ -22,7 +22,7 @@ const Discover = () => {
         <select
           onChange={() => {}}
           value=""
-          className="bg-[#6a82fb] text-gray-300 p-3 text-sm rounded-lg outline-none sm:mt-0 mt-5"
+          className="bg-[#a22ade] text-gray-300 p-3 text-sm rounded-lg outline-none sm:mt-0 mt-5"
         >
           {genres.map((genre) => (
             <option key={genre.value} value={genre.value}>

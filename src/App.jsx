@@ -16,9 +16,9 @@ const App = () => {
   const { activeSong } = useSelector((state) => state.player);
 
   return (
-    <div className="relative flex">
+    <div className="relative flex ">
       <Sidebar />
-      <div className="flex-1 flex flex-col bg-gradient-to-br from-[#fc5c7d] to-[#6a82fb]">
+      <div className="flex-1 flex flex-col bg-gradient-to-br from-[#8d031e] to-[#6a82fb]">
         <Searchbar />
 
         <div className="px-6 h-[calc(100vh-72px)] overflow-y-scroll hide-scrollbar flex xl:flex-row flex-col-reverse">
