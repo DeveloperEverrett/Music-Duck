@@ -4,8 +4,8 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
 
 import './index.css';
-import App from './App';
-import { store } from './redux/store';
+import App from './src/App';
+import { store } from './src/redux/store';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -14,5 +14,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <App />
       </Router>
     </Provider>
-  </React.StrictMode>,
+  </React.StrictMode>
 );
